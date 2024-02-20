@@ -8,14 +8,19 @@
 import SwiftUI
 
 struct ContentView: View {
+    @State var showView = false
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
-        }
-        .padding()
+        VStack{
+            Button(action: { showView.toggle() }, label: {
+                Label("Start typing", systemImage: "Keyboard.fill")
+            })
+            .tint(.green)
+            .buttonStyle(.bordered)
+            .controlSize(.large)
+        }.padding()
+            .sheet(isPresented: $showView){
+                TextSheet()
+            }
     }
 }
 

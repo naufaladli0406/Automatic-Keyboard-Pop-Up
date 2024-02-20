@@ -11,6 +11,7 @@
 		DB6C14CE2B8499F2004F9083 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB6C14CD2B8499F2004F9083 /* ContentView.swift */; };
 		DB6C14D02B8499F5004F9083 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB6C14CF2B8499F5004F9083 /* Assets.xcassets */; };
 		DB6C14D32B8499F5004F9083 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB6C14D22B8499F5004F9083 /* Preview Assets.xcassets */; };
+		DB6C14DA2B849BA7004F9083 /* TextSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB6C14D92B849BA7004F9083 /* TextSheet.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		DB6C14CD2B8499F2004F9083 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		DB6C14CF2B8499F5004F9083 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DB6C14D22B8499F5004F9083 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DB6C14D92B849BA7004F9083 /* TextSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextSheet.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +57,7 @@
 				DB6C14CD2B8499F2004F9083 /* ContentView.swift */,
 				DB6C14CF2B8499F5004F9083 /* Assets.xcassets */,
 				DB6C14D12B8499F5004F9083 /* Preview Content */,
+				DB6C14D92B849BA7004F9083 /* TextSheet.swift */,
 			);
 			path = DynamicKeyboard;
 			sourceTree = "<group>";
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DB6C14DA2B849BA7004F9083 /* TextSheet.swift in Sources */,
 				DB6C14CE2B8499F2004F9083 /* ContentView.swift in Sources */,
 				DB6C14CC2B8499F2004F9083 /* DynamicKeyboardApp.swift in Sources */,
 			);
